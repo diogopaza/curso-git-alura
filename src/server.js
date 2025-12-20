@@ -18,5 +18,5 @@ server.use(/^(?!\/(public|livros|autores|categorias)).*$/, authenticationMiddlew
 server.use(router) //rotas na prota 3000
 
 server.listen(8000, () => {
-  console.log("Alterando SERVER http://localhost:8000")
+  console.log("Alterando SERVER 22222 http://localhost:8000")
 })
